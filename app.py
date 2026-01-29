@@ -3,7 +3,7 @@ import random
 
 app = Flask(__name__)
 app.secret_key = "secret_key_for_session"
-
+app.config["SESSION_PERMANENT"] = False
 
 def generate_number():
     return list(str(random.randint(1111, 9999)))
@@ -67,4 +67,5 @@ def soft_reset():
 
 
 if __name__ == "__main__":
+
     app.run(debug=True)
