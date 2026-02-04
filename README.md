@@ -42,7 +42,6 @@ The game encourages structured thinking, where every input helps narrow down the
 ## 👥 Contributors
 
 - **Jasem Saleh** 
-- **Shamveel C** 
 - **Aboobacker Sidhique** 
 
 ---
